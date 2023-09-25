@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio Website</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-light">
+  <!-- navigation start  -->
+
+          <div class="container-fluid shadow-sm sticky-top bg-body-tertiary">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary  ">
+              <div class="container d-flex">
+                <a class="navbar-brand text-danger fw-bold fs-3 me-5" href="#">My Portfolio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link active text-danger fw-bold" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-danger fw-bold" href="#aboutme">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-danger fw-bold" href="#service">Services</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link  text-danger fw-bold" href="#project">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link  text-danger fw-bold" href="#rating">Rating</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link  text-danger fw-bold" href="#contact">Contact Me</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              
+            </nav>
+            <div class="progress-container">
+              <div class="progress-bar" id="myBar"></div>
+            </div>
+          </div>
+<!-- navigation gend -->
+
+<!-- home start  -->
+<section class="container-lg min-vh-75 home">
+    <div class="row justify-content-center align-items-center p-5">
+      <div class="col-12 col-md-5 text-center my-lg-5 mb-5">
+          <img src="photo_2023-08-10_20-58-47.jpg" alt="profile" class="rounded-circle shadow-lg profilePhoto " >
+      </div>
+      <div class="col-12 col-md-7 order-md-first py-3">
+        <div class="text-danger">
+          <p class="text-black-50">Hello I'm</p>
+          <h1>WEB DEVELOPER</h1>
+          <p class="text-muted fw-bold">Nay Thu Soe</p>
+        </div>
+        <p class="text-muted py-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis excepturi magnam quis tenetur perferendis. Aspernatur doloremque, sed, ab delectus iusto fuga asperiores id odio quam, officia iure laudantium illo eligendi.</p>
+        <button class="btn btn-outline-danger">My Work</button>
+      </div>
+    </div>
+</section>
+<!-- home end  -->
+
+<!-- About Me start -->
+<div id="aboutme">about me</div>
+<section class="aboutMe container-lg">
+  <div class="row mb-3">
+      <div class="col-12">
+          <h2 class="text-center fw-bold py-3">About Me</h2>
+      </div>
+  </div>
+  <div class="row g-3">
+    <div class="col-12 col-md-6 mb-4 px-4">
+      <div class="row">
+        <h2>Freelancer</h2>
+        <p class="mt-4 text-muted">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia quidem at, accusantium fuga mollitia aut a quod, aspernatur eligendi vitae sit placeat modi neque quibusdam omnis tenetur optio velit asperiores.</p>
+      </div>
+      <div class="row text-center mt-4">
+        <div class="col-4">
+          <h2 class="fw-bold">100+</h2>
+          <h6 class="text-muted">PROJECT COMPLETED</h6>
+        </div>
+        <div class="col-4">
+          <h2 class="fw-bold">90+</h2>
+          <h6 class="text-muted">HAPPY <br>PROJECTS</h6>
+        </div>
+        <div class="col-4">
+          <h2 class="fw-bold">95+</h2>
+          <h6 class="text-muted">POSITIVE <br>REVIEW</h6>
+        </div>
+      </div>
+      <div class="mt-4 d-flex justify-content-start align-items-center">
+          <button class="btn btn-outline-danger d-inline px-2">Download CV</button>
+          <div class="mx-4">
+            <i class="fa-brands fa-facebook-f px-1 fs-5"></i>
+            <i class="fa-brands fa-twitter px-1 fs-5"></i>
+            <i class="fa-brands fa-instagram px-1 fs-5"></i>
+            <i class="fa-brands fa-viber px-1 fs-5"></i>
+          </div>
+      </div>
+
+    </div>
+    <div class="col-12 col-md-6 mb-3 px-4">
+        <div class="mb-4">
+          <h4>HTML</h4>
+          <div class="progress" style="height:6px">
+              <div class="progress-bar w-75 bg-danger"></div>
+          </div>
+        </div>
+        <div class="mb-4">
+          <h4>CSS</h4>
+          <div class="progress" style="height:6px">
+              <div class="progress-bar w-25 bg-danger"></div>
+          </div>
+        </div>
+        <div class="mb-4">
+          <h4>JavaScript</h4>
+          <div class="progress" style="height:6px">
+              <div class="progress-bar w-50 bg-danger"></div>
+          </div>
+        </div>
+        <div class="mb-4">
+          <h4>Bootstrap</h4>
+          <div class="progress" style="height:6px">
+              <div class="progress-bar w-75 bg-danger"></div>
+          </div>
+        </div>
+        <div class="mb-4">
+          <h4>PHP</h4>
+          <div class="progress" style="height:6px">
+              <div class="progress-bar w-50 bg-danger"></div>
+          </div>
+        </div>
+    </div>
+  </div>
+</section>
+<!-- About Me end  -->
+
+<!-- Services start  -->
+<div id="service">about me</div>
+<section class="services container mt-5 px-4">
+  <div class="row mb-3">
+    <div class="col-12">
+        <h2 class="text-center fw-bold py-3">Skills And Services</h2>
+    </div>
+  </div>
+  <div class="row g-3">
+    <div class="col-12 col-md-6 col-lg-4">
+      <div class="card text-center py-4 border-0 shadow-sm">
+        <div class="card-body">
+          <i class="fa-solid fa-code mb-3 text-danger fs-3"></i>
+          <h6 class="mb-3 fw-bold">Web Development</h6>
+          <p class="text-muted">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo tenetur cum quas, nostrum sapiente, pariatur nisi, eligendi esse optio dolorem sit laudantium laborum rerum fugiat officia quisquam nemo a minima.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-md-6 col-lg-4">
+      <div class="card text-center py-4 border-0 shadow-sm">
+        <div class="card-body">
+          <i class="fa-solid fa-lightbulb mb-3 text-danger fs-3"></i>
+          <h6 class="mb-3 fw-bold">Critical Thinking</h6>
+          <p class="text-muted">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo tenetur cum quas, nostrum sapiente, pariatur nisi, eligendi esse optio dolorem sit laudantium laborum rerum fugiat officia quisquam nemo a minima.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-md-6 col-lg-4">
+      <div class="card text-center py-4 border-0 shadow-sm">
+        <div class="card-body">
+          <i class="fa-solid fa-image mb-3 text-danger fs-3"></i>
+          <h6 class="mb-3 fw-bold">Photoshop</h6>
+          <p class="text-muted">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo tenetur cum quas, nostrum sapiente, pariatur nisi, eligendi esse optio dolorem sit laudantium laborum rerum fugiat officia quisquam nemo a minima.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Services end  -->
+
+<!-- Leatest Projects start -->
+<div id="project">about me</div>
+<section class="my-5 container leatest">
+  <div class="row mb-3">
+    <div class="col-12">
+        <h2 class="text-center fw-bold py-3">Leatest Projects</h2>
+    </div>
+  </div>
+  <div class="row g-3">
+    <div class="col-12 col-md-6 col-lg-4">
+      <div>
+        <img src="https://www.geckoboard.com/uploads/Website-KPI-dashboard.png" alt="dashboard1" class="img-thumbnail mb-3" >
+        <h6>Dashboard 1</h6>
+        <a href="#" class="text-decoration-none text-danger">Live Demo</a>
+      </div>
+    </div>
+    <div class="col-12 col-md-6 col-lg-4">
+      <div>
+        <img src="https://chartio.com/images/blog/how-to-create-a-web-analytics-dashboard/how-to-create-a-web-analytics-dashboard-0.png" alt="dashboard1" class="img-thumbnail mb-3" >
+        <h6>Dashboard 2</h6>
+        <a href="#" class="text-decoration-none text-danger">Live Demo</a>
+      </div>
+    </div>
+    <div class="col-12 col-md-6 col-lg-4">
+      <div>
+        <img src="https://www.slideteam.net/media/catalog/product/cache/1280x720/d/a/dashboards_by_function_marketing_web_analytics_dashboard_slide01.jpg" alt="dashboard1" class="img-thumbnail mb-3">
+        <h6>Dashboard 3</h6>
+        <a href="#" class="text-decoration-none text-danger">Live Demo</a>
+      </div>
+    </div>
+    <div class="col-12 col-md-6 col-lg-4">
+      <div>
+        <img src="https://i0.wp.com/www.phdata.io/wp-content/uploads/2022/08/Web-Traffic-Power-BI-Dashboard-Example-Screenshot.png" alt="dashboard1" class="img-thumbnail mb-3">
+        <h6>Dashboard 4</h6>
+        <a href="#" class="text-decoration-none text-danger">Live Demo</a>
+      </div>
+    </div>
+    <div class="col-12 col-md-6 col-lg-4">
+      <div>
+        <img src="https://i0.wp.com/www.phdata.io/wp-content/uploads/2022/08/Web-Traffic-Power-BI-Dashboard-Example-Screenshot.png" alt="dashboard1" class="img-thumbnail mb-3" >
+        <h6>Dashboard 5</h6>
+        <a href="#" class="text-decoration-none text-danger">Live Demo</a>
+      </div>
+    </div>
+    <div class="col-12 col-md-6 col-lg-4">
+      <div>
+        <img src="https://www.cyfe.com/wp-content/uploads/2014/06/pre-built-template-1024x640.png" alt="dashboard1" class="img-thumbnail mb-3" >
+        <h6>Dashboard 6</h6>
+        <a href="#" class="text-decoration-none text-danger">Live Demo</a>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Leatest Projects end  -->
+
+<!-- Merketing Section start  -->
+<section class="merketing container-fluid">
+  <div class="row mb-5 text-center py-5 bg-danger">
+    <div class="col-12">
+      <h3 class=" fs-5 text-white-50">Do You Have Any Projects?</h3>
+      <h3 class="text-white fs-2 my-4">I am available for a freelancer</h3>
+      <a href="#contact" class="btn btn-outline-light mt-3">Contact Me</a>
+    </div>
+  </div>
+</section>
+<!-- Merketing Section End  -->
+
+<!-- Team Mamber section start -->
+<div id="rating">about me</div>
+<section class="container-lg my-5">
+  <div class="row mb-3">
+    <div class="col-12">
+      <h2 class="fw-bold text-center">Team Member Reating</h2>
+    </div>
+  </div>
+  <div class="row d-flex justify-content-center align-items-center">
+    <div class="col-11 col-md-8 ">
+      <div class="carousel slide " id="carouselExampleIndicators" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active bg-danger" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" class="bg-danger"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3" class="bg-danger"></button>
+        </div>
+  
+        <div class="carousel-inner">
+          <div class="card p-3 carousel-item active">
+            <div class="card-body">
+              <div class="row d-flex align-items-center">
+                <div class="col-4 col-md-2 text-center">
+                  <div class="imgContainer rounded-circle overflow-hidden shadow-sm" style="width:70px; height:70px">
+                    <img src="./photo3.jpg" alt="" width="100%" height=" 100%">
+                  </div>
+                </div>
+                <div class="col-8 col-md-10 ps-2 ps-md-5 pt-3">
+                  <h5 class="fw-bold">Kyaw Kyaw</h5>
+                  <p class="text-muted">Senior Web Developer</p>
+                </div>
+              </div>
+              <div class="row mt-3">
+                <p class="text-muted">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni enim pariatur aut numquam perspiciatis adipisci itaque optio autem, officiis quibusdam!</p>
+                <div class="starContainer mt-3 text-danger">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+          <div class="card p-3 carousel-item">
+            <div class="card-body">
+              <div class="row d-flex align-items-center">
+                <div class="col-4 col-md-2 text-center">
+                  <div class="imgContainer rounded-circle overflow-hidden shadow-sm" style="width:70px; height:70px">
+                    <img src="./photo2.jpg" alt="" width="100%" height=" 100%">
+                  </div>
+                </div>
+                <div class="col-8 col-md-10 ps-md-5 pt-3">
+                  <h5 class="fw-bold">Tun Tun</h5>
+                  <p class="text-muted">Senior Web Developer</p>
+                </div>
+              </div>
+              <div class="row mt-3">
+                <p class="text-muted">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni enim pariatur aut numquam perspiciatis adipisci itaque optio autem, officiis quibusdam!</p>
+                <div class="starContainer mt-3 text-danger">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+          <div class="card p-3 carousel-item">
+            <div class="card-body">
+              <div class="row d-flex align-items-center">
+                <div class="col-4 col-md-2 text-center">
+                  <div class="imgContainer rounded-circle overflow-hidden shadow-sm" style="width:70px; height:70px">
+                    <img src="./images.jpg" alt="" width="100%" height=" 100%">
+                  </div>
+                </div>
+                <div class="col-8 col-md-10 ps-md-5 pt-3">
+                  <h5 class="fw-bold">Zaw Zaw</h5>
+                  <p class="text-muted">Senior Web Developer</p>
+                </div>
+              </div>
+              <div class="row mt-3">
+                <p class="text-muted">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni enim pariatur aut numquam perspiciatis adipisci itaque optio autem, officiis quibusdam!</p>
+                <div class="starContainer mt-3 text-danger">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Team Member section end  -->
+
+<!-- Contact Section start  -->
+<div id="contact">myanmar</div>
+<section class="container-lg my-5" >
+  <div class="row mb-3">
+    <div class="col-12">
+      <h2 class="fw-bold text-center">Contact Me</h2>
+    </div>
+  </div>
+  <div class="row p-3">
+    <div class="col-12 col-md-5 ">
+      <div class="d-flex flex-row justify-content-start align-items-center p-3 mb-3 bg-white shadow-sm rounded">
+        <div class="icon">
+           <i class="fas fa-phone text-danger" style="font-size:1.5em;"></i>
+        </div>
+        <div class="text ms-3">
+          <div class="mb-2">Phone</div>
+          <div class="text-muted">09-788-022-952</div>
+        </div>
+      </div>
+      <div class="d-flex flex-row justify-content-start align-items-center p-3 mb-3 bg-white shadow-sm rounded">
+        <div class="icon">
+           <i class="fas fa-envelope text-danger" style="font-size:1.5em;"></i>
+        </div>
+        <div class="text ms-3">
+          <div class="mb-2">Gmail</div>
+          <div class="text-muted">www.mzar1324@gmail.com</div>
+        </div>
+      </div>
+      <div class="d-flex flex-row justify-content-start align-items-center p-3 mb-3 bg-white shadow-sm rounded">
+        <div class="icon">
+           <i class="fas fa-map-location text-danger" style="font-size:1.5em;"></i>
+        </div>
+        <div class="text ms-3">
+          <div class="mb-2">Address</div>
+          <div class="text-muted">No-81|Mahar Myant Road | AungTuKa quater</div>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-md-7">
+      <div class="row">
+        <div class="col-12 col-md-6 ">
+          <input type="text" placeholder="Name" class="form-control">
+        </div>
+        <div class="col-12 col-md-6 mt-4 mt-md-0">
+          <input type="text" placeholder="Gmail" class="form-control">
+        </div>
+      </div>
+      <div class="row mt-4">
+        <div class="col-12">
+          <input type="text" placeholder="Object" class="form-control">
+        </div>
+      </div>
+      <div class="row mt-4">
+        <div class="col-12">
+          <textarea cols="30" rows="10" class="form-control" placeholder="Your Message..."></textarea>
+        </div>
+      </div>
+      <div class="row mt-4">
+        <div class="col-8">
+          <button class="btn btn-outline-danger px-4">
+            <i class="fa-regular fa-paper-plane me-2"></i>
+            Send Message
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Contact Section end  -->
+
+<!-- Footer Section start -->
+  <section class="container-fluid">
+    <div class="row">
+      <div class="col-12 border-top bg-danger">
+        <div class="text-center py-5 text-white">@copyright | Developed By Nay Thu Soe</div>
+      </div>
+    </div>
+  </section>
+<!-- Footer Section end -->
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
